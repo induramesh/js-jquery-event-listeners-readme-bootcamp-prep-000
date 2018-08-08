@@ -11,7 +11,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('form').on("load", function(){
+  $('form').on('keydown', function(key){
     $("img").addClass("tasty");
 });
 }
