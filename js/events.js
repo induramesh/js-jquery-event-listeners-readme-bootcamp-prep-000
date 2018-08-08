@@ -11,7 +11,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('img').on("load", function(){
+  $('form').on("load", function(){
     $("img").addClass("tasty");
 });
 }
@@ -20,5 +20,6 @@ $(document).ready(function(){
 
 getIt();
 frameIt();
+pressIt;
 
 });
