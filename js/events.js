@@ -12,7 +12,9 @@ function frameIt() {
 
 function pressIt() {
   $('form').on('keydown', function(key){
-    $("img").addClass("tasty");
+      if(key.which == 83){
+      alert('s was pressed');
+      }
 });
 }
 
